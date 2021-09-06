@@ -34,7 +34,8 @@ public class InitInstructor {
             session.close();
 
         } catch (Exception e) {
-            e.printStackTrace();
+            // e.printStackTrace();
+            System.out.println(e.getMessage());
             session.close();
         }
     }
